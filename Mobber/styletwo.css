@@ -203,6 +203,7 @@ color: white;
   font-size: 25px;
   border: 1px #93342c solid;
   text-align: center;
+  box-shadow: inset 0px 2px 3px 0px white;
 }
 
 .button a {
@@ -220,6 +221,7 @@ color: white;
   text-align: left;
   margin: 0px 8px;
   padding-left: 3px;
+  box-shadow: inset 0px 2px 8px grey;
 }
 
 .reward img {
@@ -348,6 +350,14 @@ color: white;
   padding: 8px 0px;
 }
 
+.middle tr:last-child {
+  border-bottom: white;
+}
+
+.middle tr:first-child {
+  border-top: white;
+}
+
 .list-header {
   width: 200px;
   font-size: 14px;
@@ -463,6 +473,7 @@ color: white;
   padding: 18px 0px;
   margin: 10px 8px;
   border-radius: 8px; 
+  box-shadow: inset 0px 0px 6px white;
 }
 
 .startmob-box .start-button a {
@@ -581,6 +592,8 @@ footer .column-four {
     text-align: center;
     display: inline-block;
     padding: 10px 31px 0;
+    border: 1px #93342c solid;
+    box-shadow: inset 0px 2px 3px 0px white;
     }
 
 .column-four .button-two a {
@@ -609,4 +622,5 @@ footer .column-four .copyright p {
   font-size: 14px;
   margin-bottom: -14px;
 }
+
 
