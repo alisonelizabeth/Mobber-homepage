@@ -187,8 +187,9 @@ color: white;
   background: rgba(0, 0, 0, 0.2);
   height: 20px;
   padding: 5px 0px;
-  font-size: 11px;
+  font-size: 12px;
   color: #313131;
+  text-shadow: 2px 1px 1px rgb(207, 198, 198);
 }
 
 /* button */
@@ -201,7 +202,7 @@ color: white;
   margin-top: 20px;
   padding: 10px 0px;
   font-size: 25px;
-  border: 1px #93342c solid;
+  border: 1px rgba(219, 115, 62, 0.4) solid;
   text-align: center;
   box-shadow: inset 0px 2px 3px 0px white;
 }
@@ -213,7 +214,7 @@ color: white;
 
 .reward {
   background: white;
-  border: 1px grey solid;
+  border: 1px #c6c6c6 solid;
   color: black;
   width: 260px;
   height: 66px;
@@ -221,7 +222,7 @@ color: white;
   text-align: left;
   margin: 0px 8px;
   padding-left: 3px;
-  box-shadow: inset 0px 2px 8px grey;
+  box-shadow: inset 0px -3px 2px #e0d9d9;
 }
 
 .reward img {
@@ -235,11 +236,12 @@ color: white;
   display: inline-block;
   padding-top: 6px;
   padding-bottom: 0px;
+  font-weight: bold;
 }
 
 .reward h2 {
   font-size: 12px;
-  padding-left: 42px;
+  padding-left: 40px;
   position: relative;
   bottom: 38px;
   color: #585959;
@@ -517,6 +519,7 @@ footer .footer-button a {
   text-decoration: none;
   color: white;
   font-size: 14px;
+  text-shadow: 2px 1px 1px rgba(37, 31, 31, 0.38);
 }
 
 footer .footer-button {
@@ -592,7 +595,7 @@ footer .column-four {
     text-align: center;
     display: inline-block;
     padding: 10px 31px 0;
-    border: 1px #93342c solid;
+    border: 1px rgba(219, 115, 62, 0.4) solid;
     box-shadow: inset 0px 2px 3px 0px white;
     }
 
